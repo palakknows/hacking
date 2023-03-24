@@ -22,3 +22,6 @@ while game_is_on:
         if event.type == pygame.QUIT: #for quit button use
             game_is_on  = False
         
+#color remains for complete game so adding it here
+    screen.fill((58,58,58))#rgb
+    pygame.display.update()
